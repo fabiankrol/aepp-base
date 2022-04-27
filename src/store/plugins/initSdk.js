@@ -88,6 +88,7 @@ export default (store) => {
           instance: await Node({
             url: network.url,
             internalUrl: network.url,
+            ignoreVersion: true,
           }),
         }],
         compilerUrl: network.compilerUrl,
